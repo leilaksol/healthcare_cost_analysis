@@ -95,7 +95,7 @@ def process_data_pipeline():
     )
     
     # Fetch Census income data
-    API_KEY = st.secrets["CENSUS_API_KEY"]
+    API_KEY = "66446d8b002b4d570a13e38579cb57843a988918"
     df_income = fetch_census_income_data(API_KEY)
     
     # Add state names using pgeocode
@@ -223,6 +223,9 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 
 # Tab 1: Full Story (NEW - Medium-style narrative)
 with tab1:
+    # Banner image at the top
+    st.image("banner.png", use_container_width=True)
+    
     # Main title
     st.title(MAIN_TITLE)
     st.subheader(MAIN_SUBTITLE)
