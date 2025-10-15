@@ -4,3 +4,6 @@ plotly
 requests
 pgeocode
 census
+us
+numpy
+
