@@ -45,10 +45,10 @@ SECTION_2_OUTLIERS = """
 A few clear outliers stand out in this analysis:
 
 **Puerto Rico (PR):**
-- With the affordability ratio of 0.42% clearly positioned as an outlier. 
+With the affordability ratio of 0.42% clearly positioned as an outlier. 
 
 **Alaska (AK):**
-- Another clear outlier, with high healthcare cost, and affordability ratio of 0.2%.
+Another clear outlier, with high healthcare cost, and affordability ratio of 0.2%.
 
 
 **Hawaii (HI):**
